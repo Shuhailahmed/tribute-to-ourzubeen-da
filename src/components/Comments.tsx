@@ -27,7 +27,7 @@ const Comments = () => {
 
   const { toast } = useToast();
 
-  const API = "http://localhost:5000/api/comments";
+  const API = "https://tribute-to-ourzubeen-da.onrender.com/api/comments";
 
   // Fetch comments
   useEffect(() => {

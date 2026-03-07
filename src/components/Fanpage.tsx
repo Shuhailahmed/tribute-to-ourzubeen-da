@@ -25,7 +25,7 @@ const Fanpage = () => {
 
   // Load tributes from backend
   useEffect(() => {
-    fetch("http://localhost:5000/api/tributes")
+    fetch("https://tribute-to-ourzubeen-da.onrender.com/api/tributes")
       .then((res) => res.json())
       .then((data) => setFanTributes(data))
       .catch((err) => console.log(err));
