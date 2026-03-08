@@ -1,4 +1,4 @@
-# 🎵 Tribute to Zubeen Da
+<img width="1919" height="872" alt="image" src="https://github.com/user-attachments/assets/64974f03-8b63-40bd-8d9f-3f1252e3bb29" /># 🎵 Tribute to Zubeen Da
 
 A memorial tribute website dedicated to the legendary singer **Zubeen Garg**, where fans can share their tributes, comments, and memories.
 
@@ -47,13 +47,26 @@ Deployment
 ## 📸 Screenshots
 
 ### Homepage
-![Homepage](./screenshots/)
+![Homepage](./screenshots/home.png)
 
-### Comments Section
-![Comments](./screenshots/comments.png)
+### About Section
+![About](./screenshots/about.png)
+
+### Songs Section
+![Song](./screenshots/song.png)
+
+### Gallery Section
+![Gallery](./screenshots/gallery.png)
 
 ### Tribute Section
-![Tribute](./screenshots/tributes.png)
+![Tribute](./screenshots/tribute.png)
+
+### Comment Section
+![Comment](./screenshots/comment.png)
+
+### Fanpage Section
+![Fanpage](./screenshots/fanpage.png)
+
 
 ---
 
