@@ -48,13 +48,16 @@ const Fanpage = () => {
       };
 
       try {
-        const res = await fetch("http://localhost:5000/api/tributes", {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
+        const res = await fetch(
+          "https://tribute-to-ourzubeen-da.onrender.com/api/tributes",
+          {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+            },
+            body: JSON.stringify(newTribute),
           },
-          body: JSON.stringify(newTribute),
-        });
+        );
 
         const savedTribute = await res.json();
 
